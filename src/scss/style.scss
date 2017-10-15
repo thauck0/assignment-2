@@ -1,0 +1,149 @@
+$bgcolor: white;
+$bodycolor: #292929; 
+
+body {
+    
+    background: $bgcolor;
+    color: $bodycolor;
+}
+
+
+
+$bgNandF: #18BC9C;
+
+
+#pageHeader {
+    
+    height: 300px;
+    background: url(../images/doggo.jpg);
+    background-position: 200px 500px;
+    background-attachment: fixed;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-top: 100px;
+}
+
+.bg-nav {
+    
+    background-color: $bgNandF;
+}
+
+.bg-footer{
+    
+    background-color: $bgNandF;
+    color: white;
+    height: 70px;
+}
+
+#dropdownMenu1 {
+    
+    background-color: $bgcolor;
+    color: $bgNandF;
+}
+
+//reg form
+
+#myRegModal .form-group {
+    
+    background: $bgNandF;
+    color: $bgcolor;
+}
+
+#myRegModal .card-header{
+    
+    background: $bgNandF;
+    color: $bgcolor;
+}
+
+.carousel-image-1 {
+    background: url("../images/christopher-harris-57366.jpg");
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background: url("../images/maja-petric-8287.jpg");
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background: url("../images/pexels-photo-551579.jpeg");
+    background-size: cover;
+}
+
+.carousel-item {
+    height: 450px;
+}
+
+hr.star-light,
+hr.star-primary {
+  padding: 0;
+  border: none;
+  border-top: solid 5px;
+  text-align: center;
+  max-width: 250px;
+  margin: 40px auto 30px;
+}
+hr.star-light:after,
+hr.star-primary:after {
+  content: "\f1b0";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -1em;
+  font-size: 3em;
+  padding: 0 0.25em;
+}
+hr.star-light {
+  border-color: #18BC9C;
+}
+hr.star-light:after {
+  background-color: white;
+  color: #18BC9C;
+}
+hr.star-primary {
+  border-color: #18BC9C;
+}
+hr.star-primary:after {
+  background-color: #18BC9C;
+  color: #18BC9C;
+}
+
+#quicklinks h1 {
+    color: $bodycolor;
+}
+
+#quicklinks {
+    color: $bgcolor;
+}
+
+#quicklinks .fa{
+    
+    font-size: 2em;
+}
+
+#quicklinks .card{
+    
+    background: $bgNandF;
+}
+
+//map page loader
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#map-canvas { height: 100% }
+
+
+    
+
